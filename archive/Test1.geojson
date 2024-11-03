@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Rose Bowl",
+        "amenity": "Rose Bowl",
+        "popupContent": "Rose Bowl"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ -118.167736 ,34.161037]
+    }
+}

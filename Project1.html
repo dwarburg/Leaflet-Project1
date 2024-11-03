@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Leaflet Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        /* Inline CSS for the map styling */
+        #map {
+            height: 100vh; /* Full viewport height */
+            width: 100%; /* Full viewport width */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <!-- Leaflet JavaScript (must come before using leaflet) -->
+    <!-- Leaflet core -->
+    <script src="https://unpkg.com/leaflet"></script>
+    <!-- Leaflet Draw -->
+    <script src="https://unpkg.com/leaflet-draw"></script>
+
+    <!-- My JavaScript-->
+    <!-- JavaScript to initialize the map -->
+    <script src="InitializeMap.js"></script>
+    <!-- JavaScript to add edit capabilities the map -->
+    <script src="EditCapabilities.js"></script>
+    <!-- JavaScript to define on click behavior -->
+    <script src="OtherCapabilities.js"></script>
+    <!-- JavaScript to read in geojson from local server-->
+    <!-- <script src="ReadGeojson.js"></script>-->
+
+</body>
+</html>
